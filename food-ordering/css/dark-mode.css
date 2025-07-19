@@ -1,0 +1,105 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #f8f8f8;
+}
+
+body.dark-mode header {
+    background-color: #1f1f1f;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+body.dark-mode .dropdown-content {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .dropdown-content a {
+    color: #f8f8f8;
+}
+
+body.dark-mode .dropdown-content a:hover {
+    background-color: #3d3d3d;
+}
+
+body.dark-mode .menu-item {
+    border-color: #333;
+    background-color: #1f1f1f;
+}
+
+body.dark-mode .menu-item-info p {
+    color: #aaa;
+}
+
+body.dark-mode .cart-container,
+body.dark-mode .form-container {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode .cart-summary {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .cart-item {
+    border-bottom-color: #333;
+}
+
+body.dark-mode .quantity-btn {
+    background-color: #333;
+    color: #f8f8f8;
+}
+
+body.dark-mode .quantity-input {
+    background-color: #333;
+    color: #f8f8f8;
+    border-color: #444;
+}
+
+body.dark-mode .form-group input {
+    background-color: #333;
+    color: #f8f8f8;
+    border-color: #444;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    margin-right: 20px;
+}
+
+#theme-toggle-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+#theme-toggle-btn:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+body.dark-mode #theme-toggle-btn {
+    color: #f8f8f8;
+}
+
+body.dark-mode #theme-toggle-btn:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+body.light-mode .fa-sun {
+    display: none;
+}
+
+body.dark-mode .fa-moon {
+    display: none;
+}
+
+body.dark-mode .fa-sun {
+    display: inline-block;
+}
